@@ -12,7 +12,7 @@ export default function Income() {
             <p>
                 Last <span>30 days</span>
             </p>
-            <h2>$2,260</h2>
+            <h2>$2,26</h2>
             <img
                 className="graph"
                 src="/assets/images/income-graph.png"
