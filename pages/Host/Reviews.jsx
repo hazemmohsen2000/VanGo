@@ -1,6 +1,6 @@
 import React from "react"
 import { BsStarFill } from "react-icons/bs"
-
+import reviewsimgs from "assets\images\reviews-graph.png"
 export default function Reviews() {
     const reviewsData = [
         {
@@ -29,7 +29,7 @@ export default function Reviews() {
             </div>
             <img
                 className="graph"
-                src="/assets/images/reviews-graph.png"
+                src= {reviewsimgs}
                 alt="Review graph"
             />
             <h3>Reviews (2)</h3>
